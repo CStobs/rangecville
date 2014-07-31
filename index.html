@@ -1,8 +1,197 @@
-<html>
-<header><title>Range</title></header>
-<body>
-Range is a men's clothing and home decor store coming to Charlottesville, VA in the Fall of 2014. Check back for updates and details this summer!
+<!DOCTYPE HTML>
 
-Range is a casual men's store coming to the Charlottesville Downtown area in the Fall of 2014.  Range specializes in rustic, everyday apparel of hand-picked styles from well-known brands and trendy, independent designers.  Range also brings fun and unique men's gadgets and furnishings for the perfect gift for any man!
-</body>
+<html>
+	<head>
+		<title>Range</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.poptrox.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+			<link rel="stylesheet" href="css/style-normal.css" />
+		</noscript>
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <script>
+            function initialize() {
+                var map_canvas = document.getElementById('map_canvas');
+                var map_options = {
+                    center: new google.maps.LatLng(38.031092, -78.488031),
+                    zoom: 15,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                }
+                var map = new google.maps.Map(map_canvas, map_options)
+            }
+            google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+
+				<!-- Logo -->
+					<div id="logo"><a href="#"><img src="images/Range Logo.png"/></a></div>
+				
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro">Intro</a></li>
+							<li><a href="#work">Collection</a></li>
+                            <li><a href="#findus">Find Us</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</nav>
+
+			</header>
+			
+		<!-- Intro -->
+			<section id="intro" class="main style1 dark fullscreen">
+				<div class="content container small">
+					<header>
+						<h2>Howdy.</h2>
+					</header>
+					<p>Welcome to <strong>RANGE</strong> a men's clothing and home decor store coming to Charlottesville, Virginia in the Fall of 2014. Check back for updates and details this summer!</p>
+					<footer>
+						<a href="#work" class="button style2 down">More</a>
+					</footer>
+				</div>
+			</section>
+			
+            
+          <!-- Collection -->
+            <section id='work' class="main style3 primary">
+                <div class="content container">
+					<header>
+						<h2>Collection</h2>
+					</header>
+                
+                <div class="carousel">
+                    <div class="reel">
+                        
+                        <article>
+                            <a href="http://mdomaradzki.deviantart.com/art/Bueller-III-351975087" class="image featured"><img src="images/collection/outfit2.jpg" alt="" /></a>
+                        </article>
+                        
+                        <article>
+                            <a href="http://mdomaradzki.deviantart.com/art/Disco-351602759" class="image featured"><img src="images/collection/Huckberry Boots.jpg" alt="" /></a>
+                        </article>
+                        
+                        <article>
+                            <a href="http://mdomaradzki.deviantart.com/art/The-Patina-of-Time-and-Tide-352128094" class="image featured"><img src="images/collection/outfit11.jpg" alt="" /></a>
+                        </article>
+                        
+                        <article>
+                            <a href="http://mdomaradzki.deviantart.com/art/Cityparts-XVIII-350427779" class="image featured"><img src="images/collection/outfit16.jpg" alt="" /></a>
+                        </article>
+                        
+                        <article>
+                            <a href="http://mdomaradzki.deviantart.com/art/Vine-Country-381350120" class="image featured"><img src="images/collection/BarnSide Coffee Stand.jpg" alt="" /></a>
+                        </article>
+                        
+                        <article>
+                            <a href="http://mdomaradzki.deviantart.com/art/Disco-351602759" class="image featured"><img src="images/collection/watch.jpg" alt="" /></a>
+                        </article>
+                        
+                        <article>
+                            <a href="http://mdomaradzki.deviantart.com/art/The-Patina-of-Time-and-Tide-352128094" class="image featured"><img src="images/collection/outfit15.jpg" alt="" /></a>
+                        </article>
+                        
+                        <article>
+                            <a href="http://mdomaradzki.deviantart.com/art/Cityparts-XVIII-350427779" class="image featured"><img src="images/collection/Wayne Pate's Sharks Teeth Print.jpg" alt="" /></a>
+                        </article>
+                        
+                        <article>
+                            <a href="http://mdomaradzki.deviantart.com/art/Vine-Country-381350120" class="image featured"><img src="images/collection/Be Brave Balsam Pillow.jpg" alt="" /></a>
+                        </article>
+                        
+                    </div>
+                </div>
+                <div class="brands box style3 container">
+                    <strong>BRANDS: </strong> Imogene & Willie, Williamsburg Garment Co., Naked & Famous, Levis, Save Khaki, Grayers, Topo Design, Life/After/Denim, Grayers, Superdry, United by Blue, Alchemy Design, Alternative Apparel, Icebreaker, Duke Cannon, Velvet, Threads 4 Thoughts, Superdry, Mountain Khakis, Wigwam, Tommy John, Gola, PF Flyers, JD Fisk, Sebago, Red Wing, Timberland, Timex Weekender, Knockaround, Satchel & Page, Howler Bros, Pendleton, and more...
+                </div>
+                </div>
+            </section>
+            
+            <!-- Find us -->
+			<section id="findus" class="main style3 secondary">
+                <div class="content container">
+                <header>
+                    <h2>Find Us</h2>
+                    <p>Range Men's Apparel and Furnishings
+                    <br/>Downtown Charlottesville, VA
+                </header>
+                <div class=" container small">
+            
+                    <div id="map_canvas"></div>
+            
+                </div>
+                </div>
+			</section>
+
+
+		<!-- Contact -->
+			<section id="contact" class="main style3 secondary dark">
+				<div class="content container">
+					<header>
+						<h2>Stay in Touch.</h2>
+						<p>Range Men's Apparel and Furnishings
+                        <br/>Downtown Charlottesville, VA
+                        <br/>rangecville@gmail.com
+                        <br/>610-781-6942</p>
+					</header>
+					<div class="box container small">
+                        
+						<!--
+							 Contact Form
+							 
+							 To get this working, place a script on your server to receive the form data, then
+							 point the "action" attribute to it (eg. action="http://mydomain.tld/mail.php").
+							 More on how it all works here: http://www.1stwebdesigner.com/tutorials/custom-php-contact-forms/
+						-->
+							<form method="post" action="mail.php">
+								<div class="row half">
+									<div class="6u"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="6u"><input type="text" name="email" placeholder="Email" /></div>
+								</div>
+								<div class="row half">
+									<div class="12u"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+								</div>
+								<div class="row">
+									<div class="12u">
+										<ul class="actions">
+											<li><input type="submit" class="button" value="Send Message" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+
+					</div>
+				</div>
+			</section>
+			
+		<!-- Footer -->
+			<footer id="footer">
+					<ul class="actions">
+						<li><a href="https://twitter.com/RangeCville" class="fa solo fa-twitter"><span>Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/rangecville" class="fa solo fa-facebook"><span>Facebook</span></a></li>
+						<li><a href="http://instagram.com/rangecville" class="fa solo fa-instagram"><span>Instagram</span></a></li>
+					</ul>
+
+				<!-- Menu -->
+					<ul class="menu">
+						<li>&copy; </li>
+						<li>Website created by Range Menswear LLC</a></li>
+					</ul>
+			
+			</footer>
+
+	</body>
 </html>
